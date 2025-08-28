@@ -3,8 +3,15 @@ namespace FormulaCuadraticaApp.Models
 {
     public class FormulaCuadratica
     {
-        public int A { get; set; }
-        public int B { get; set; }
-        public int C { get; set; }
+        public double A { get; set; }
+        public double B { get; set; }
+        public double C { get; set; }
+
+        public FormulaCuadratica(double A, double B, double C)
+        {
+            this.A = A;
+            this.B = B;
+            this.C = C;
+        }
     }
 }
